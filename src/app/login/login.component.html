@@ -1,0 +1,37 @@
+<body>
+    <div class="container col-md-12 mt-0">
+        <h1>welcome to coffee lover web applicaton</h1>
+        <div class="d-flex justify-content-center h-100">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="text-center">Login</h3>
+
+                </div>
+                <div class="card-body">
+                    <form>
+                        <div class="input-group form-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fas fa-user"></i></span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="username" id="login_accno" required>
+
+                        </div>
+                        <div class="input-group form-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fas fa-key"></i></span>
+                            </div>
+                            <input type="password" class="form-control" placeholder="password" id="login_password"
+                                required>
+                        </div>
+
+                        <div class="form-group">
+                            <a routerLink="/home" type="submit" value="Login" class="btn float-right login_btn "
+                                style="width:50%">Login</a>
+                        </div>
+                    </form>
+                </div>
+                <p style="color:white;align-items:baseline;">Not a user? <a routerLink="/register">Register</a></p>
+            </div>
+        </div>
+    </div>
+</body>
